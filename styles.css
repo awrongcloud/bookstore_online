@@ -5,6 +5,8 @@
     display: flex;
     justify-content: space-between;
     padding-left: 140px;
+    font-size: 16px;
+    
 }
 
 .heart-icon {
@@ -17,6 +19,7 @@
     align-items: center;
     padding-right: 140px;
     gap: 30px;
+    font-size: 15px;
 }
 
 .cart-container {
@@ -27,4 +30,26 @@
     width: 90px;
     gap: 5px;
     background-color: rgb(100, 181, 105);
+}
+
+.navbar{
+    background-color: rgb(84, 79, 79);
+    color: white;
+    display: flex;
+}
+
+.nav{
+    padding-left: 140px;
+    display: flex;
+    gap: 30px;
+}
+
+.navbar ul{
+    list-style-type: none;   
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
 }
