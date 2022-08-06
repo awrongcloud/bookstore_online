@@ -1,0 +1,30 @@
+.title-container {
+    background-color: rgb(23, 128, 23);
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 140px;
+}
+
+.heart-icon {
+    display: flex;
+    gap: 20px;
+}
+
+.title-right {
+    display: flex;
+    align-items: center;
+    padding-right: 140px;
+    gap: 30px;
+}
+
+.cart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 90px;
+    gap: 5px;
+    background-color: rgb(100, 181, 105);
+}
