@@ -65,10 +65,10 @@ body{
 .icon-container {
     display: flex;
     justify-content:flex-start;
+    align-items: flex-start;
     padding-left: 140px;
     padding-top: 30px;
-    gap: 50px;
-    background-color: white;
+    gap: 100px;
 }
 
 
@@ -81,4 +81,59 @@ body{
 .icon p{
     font-size: 15px;
     font-family: sans-serif;
+}
+
+.left_container{
+    padding-left: 140px;
+}
+
+.left_box{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: beige;
+    gap: 5px;
+    height: 600px;
+    width: 800px;
+}
+
+
+.photo_box{
+    background-color: rgb(114, 107, 107);
+    height: 500px;
+    width: 400px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo_box h5{
+    color: white;
+}
+
+.middle_container{
+    display: flex;
+    gap: 30px;
+}
+
+.box_1{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    background-color: beige;
+    margin-bottom: 10px;
+}
+
+.box_2{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    background-color: beige;
+}
+
+.right_box p{
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
