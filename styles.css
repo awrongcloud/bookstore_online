@@ -1,7 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
-    background-color: rgb(186, 181, 181);
+    background-color: white;
 }
 
 .title-container {
@@ -68,14 +68,20 @@ body{
     align-items: flex-start;
     padding-left: 140px;
     padding-top: 30px;
-    gap: 100px;
+    gap: 60px;
+    padding-bottom: 30px;
+    
 }
 
+.vertical {
+    border-left: 1px solid gray;
+    height: 50px;
+}
 
 .icon {
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 15px;
 }
 
 .icon p{
@@ -137,3 +143,4 @@ body{
     align-items: center;
     text-align: center;
 }
+
